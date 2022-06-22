@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(40, 214, 148, 0.6);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    margin: 40px;
+    width: 250px;
+    border-radius: 0 25px 0 25px;
+    background-color: #ddd;
+}
+
+.card h3{
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 0 0 0 25px;
+    cursor: pointer;
+}
+
+.card-pic{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+}
+
+.card:hover{
+    background-color: rgb(87, 82, 82);
+    color: #fff;
+    transform: scale(1.1);
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+.card a:hover{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+/* Images */
+.pic-1{
+    background-image: url(./img/fuel-filter.png);
+}
+.pic-2{
+    background-image: url(./img/oil-filter.png);
+}
+.pic-3{
+    background-image: url(./img/abs-sensor.png);
+}
